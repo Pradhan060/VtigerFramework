@@ -4,6 +4,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -28,7 +29,7 @@ public class CreateProductTest extends BaseClass{
 		cnp.getSaveBtn().click();
 		String ActSuccessMsg = pcsw.getSuccessMsg().getText();
 		Assert.assertTrue(ActSuccessMsg.contains(data.getDataFromExcel("Product", 2, 2)));
-		
+		Reporter.log("Organisation created successfully",true);
 		
 		
 		
