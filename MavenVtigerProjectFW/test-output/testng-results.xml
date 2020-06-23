@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="157704" started-at="2020-06-21T06:26:54Z" finished-at="2020-06-21T06:29:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="157704" started-at="2020-06-21T06:26:54Z" finished-at="2020-06-21T06:29:32Z">
+      <class name="com.Vtiger.TestScript.CreateOrganisationTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="configBS" is-config="true" duration-ms="30" started-at="2020-06-21T11:56:54Z" finished-at="2020-06-21T11:56:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="configBC" is-config="true" duration-ms="17221" started-at="2020-06-21T11:56:54Z" finished-at="2020-06-21T11:57:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="configBM" is-config="true" duration-ms="13080" started-at="2020-06-21T11:57:11Z" finished-at="2020-06-21T11:57:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="OrganisationCreation()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="OrganisationCreation" duration-ms="101502" started-at="2020-06-21T11:57:24Z" finished-at="2020-06-21T11:59:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrganisationCreation -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="configAM" is-config="true" duration-ms="16235" started-at="2020-06-21T11:59:06Z" finished-at="2020-06-21T11:59:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="cofigAC" is-config="true" duration-ms="9604" started-at="2020-06-21T11:59:22Z" finished-at="2020-06-21T11:59:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@59fa1d9b]" name="configAS" is-config="true" duration-ms="1" started-at="2020-06-21T11:59:33Z" finished-at="2020-06-21T11:59:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.Vtiger.TestScript.CreateOrganisationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
