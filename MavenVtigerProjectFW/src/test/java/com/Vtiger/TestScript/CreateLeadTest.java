@@ -5,6 +5,7 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -32,6 +33,7 @@ public class CreateLeadTest extends BaseClass {
 		cn.getSaveBtn().click();
 		String actLeadmsg = lc.getSuccessMsg().getText();
 		Assert.assertTrue(actLeadmsg.contains(data.getDataFromExcel("CreationOfLead", 2, 3)));
+		Reporter.log("Lead created successfully",true);
 		
 		
 //		driver.findElement(By.linkText("Leads")).click();
