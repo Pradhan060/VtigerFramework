@@ -29,8 +29,6 @@ public class CreateProductTest extends BaseClass{
 		cnp.getSaveBtn().click();
 		String ActSuccessMsg = pcsw.getSuccessMsg().getText();
 		Assert.assertTrue(ActSuccessMsg.contains(data.getDataFromExcel("Product", 2, 2)));
-		Reporter.log("Organisation created successfully",true);
-		
 		
 		
 		
