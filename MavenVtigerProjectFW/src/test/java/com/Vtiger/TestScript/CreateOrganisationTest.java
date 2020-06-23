@@ -7,6 +7,7 @@ import org.apache.poi.EncryptedDocumentException;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
@@ -54,7 +55,7 @@ public class CreateOrganisationTest  extends BaseClass{
 		
 		String actualSuccessMsg = ocsp.getSuccessMsg().getText();
 		Assert.assertTrue(actualSuccessMsg.contains(data.getDataFromExcel("Organisation", 2, 2)));
-		
+		Reporter.log("Organisation created successfully",true);
 		
 		
 //		driver.findElement(By.linkText("Organizations")).click();
