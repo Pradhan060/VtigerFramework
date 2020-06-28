@@ -7,9 +7,9 @@
         <methods>
           <include name="configBM"/>
           <include name="configAM"/>
+          <include name="CreateTestLead"/>
           <include name="configBS"/>
           <include name="configBC"/>
-          <include name="LeadCreation"/>
           <include name="configAS"/>
           <include name="cofigAC"/>
         </methods>

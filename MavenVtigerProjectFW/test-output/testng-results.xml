@@ -1,157 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="1" failed="0" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Product created successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="78891" started-at="2020-06-26T10:18:52Z" finished-at="2020-06-26T10:20:11Z">
+  <suite name="Default suite" duration-ms="70920" started-at="2020-06-28T05:55:10Z" finished-at="2020-06-28T05:56:21Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="78891" started-at="2020-06-26T10:18:52Z" finished-at="2020-06-26T10:20:11Z">
-      <class name="com.Vtiger.TestScript.CreateLeadTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="configBS" is-config="true" duration-ms="85" started-at="2020-06-26T15:48:52Z" finished-at="2020-06-26T15:48:52Z">
+    <test name="Default test" duration-ms="70920" started-at="2020-06-28T05:55:10Z" finished-at="2020-06-28T05:56:21Z">
+      <class name="com.Vtiger.TestScript.CreateProductTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBS" is-config="true" duration-ms="50" started-at="2020-06-28T11:25:10Z" finished-at="2020-06-28T11:25:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBS -->
-        <test-method status="FAIL" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="configBC" is-config="true" duration-ms="78134" started-at="2020-06-26T15:48:53Z" finished-at="2020-06-26T15:50:11Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=83.0.4103.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SHUBHENDU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SHUBHE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 217df5a22cde1aa565e640525c81d941]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=83.0.4103.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SHUBHENDU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SHUBHE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 217df5a22cde1aa565e640525c81d941
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.Vtiger.genericLib.BaseClass.configBC(BaseClass.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBC" is-config="true" duration-ms="17062" started-at="2020-06-28T11:25:11Z" finished-at="2020-06-28T11:25:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="SKIP" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="configBM" is-config="true" duration-ms="0" started-at="2020-06-26T15:50:11Z" finished-at="2020-06-26T15:50:11Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBM" is-config="true" duration-ms="7682" started-at="2020-06-28T11:25:28Z" finished-at="2020-06-28T11:25:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="SKIP" signature="LeadCreation()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="LeadCreation" duration-ms="345" started-at="2020-06-26T15:50:11Z" finished-at="2020-06-26T15:50:11Z">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=83.0.4103.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SHUBHENDU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SHUBHE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 217df5a22cde1aa565e640525c81d941]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: unknown error: cannot determine loading status
-from disconnected: received Inspector.detached event
-  (Session info: chrome=83.0.4103.116)
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'SHUBHENDU', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_251'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 83.0.4103.116, chrome: {chromedriverVersion: 83.0.4103.39 (ccbf011cb2d2b..., userDataDir: C:\Users\SHUBHE~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:54864}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 217df5a22cde1aa565e640525c81d941
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-	at java.lang.reflect.Constructor.newInstance(Unknown Source)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:277)
-	at com.Vtiger.genericLib.BaseClass.configBC(BaseClass.java:49)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
-	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)
-	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:146)
-	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:166)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
-	at org.testng.TestRunner.privateRun(TestRunner.java:744)
-	at org.testng.TestRunner.run(TestRunner.java:602)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
-	at org.testng.TestNG.runSuites(TestNG.java:1144)
-	at org.testng.TestNG.run(TestNG.java:1115)
-	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
-	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
-	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
+        <test-method status="PASS" signature="ProductCreation()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="ProductCreation" duration-ms="41315" started-at="2020-06-28T11:25:35Z" finished-at="2020-06-28T11:26:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Product created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- ProductCreation -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configAM" is-config="true" duration-ms="3777" started-at="2020-06-28T11:26:17Z" finished-at="2020-06-28T11:26:20Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LeadCreation -->
-        <test-method status="SKIP" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="cofigAC" is-config="true" duration-ms="0" started-at="2020-06-26T15:50:11Z" finished-at="2020-06-26T15:50:11Z">
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="cofigAC" is-config="true" duration-ms="969" started-at="2020-06-28T11:26:20Z" finished-at="2020-06-28T11:26:21Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cofigAC -->
-        <test-method status="SKIP" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@59fa1d9b]" name="configAS" is-config="true" duration-ms="0" started-at="2020-06-26T15:50:14Z" finished-at="2020-06-26T15:50:14Z">
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configAS" is-config="true" duration-ms="0" started-at="2020-06-28T11:26:22Z" finished-at="2020-06-28T11:26:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.Vtiger.TestScript.CreateLeadTest -->
+      </class> <!-- com.Vtiger.TestScript.CreateProductTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
