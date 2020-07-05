@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import com.Vtiger.genericLib.BaseClass;
 import com.Vtiger.genericLib.WebDriverCommonUtils;
 
-import com_Object_Bank.CreatingNewOrganizationPgaeWebElement;
+import com_Object_Bank.CreatingNewOrganizationPageWebElement;
 import com_Object_Bank.HomePageWebElement;
 import com_Object_Bank.MemberOfWindowPopup;
 import com_Object_Bank.OrganizationCreationSuccessPageWebElement;
@@ -29,7 +29,7 @@ public class CreateOrganisationTest  extends BaseClass{
 		
 		HomePageWebElement hp = PageFactory.initElements(BaseClass.driver, HomePageWebElement.class);
 		OrganizationHomePageWebElements op = PageFactory.initElements(BaseClass.driver, OrganizationHomePageWebElements.class);
-		CreatingNewOrganizationPgaeWebElement cnop = PageFactory.initElements(BaseClass.driver, CreatingNewOrganizationPgaeWebElement.class);
+		CreatingNewOrganizationPageWebElement cnop = PageFactory.initElements(BaseClass.driver, CreatingNewOrganizationPageWebElement.class);
 		OrganizationCreationSuccessPageWebElement ocsp = PageFactory.initElements(BaseClass.driver, OrganizationCreationSuccessPageWebElement.class);
 		MemberOfWindowPopup mowp = PageFactory.initElements(BaseClass.driver, MemberOfWindowPopup.class);
 		hp.getOrganizations().click();
