@@ -1,47 +1,103 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="4" total="7" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Organisation created successfully]]>
+    </line>
     <line>
       <![CDATA[Product created successfully]]>
     </line>
+    <line>
+      <![CDATA[Lead Created Successfully]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="70920" started-at="2020-06-28T05:55:10Z" finished-at="2020-06-28T05:56:21Z">
+  <suite name="Suite" duration-ms="186358" started-at="2020-07-05T07:57:02Z" finished-at="2020-07-05T08:00:09Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="70920" started-at="2020-06-28T05:55:10Z" finished-at="2020-06-28T05:56:21Z">
-      <class name="com.Vtiger.TestScript.CreateProductTest">
-        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBS" is-config="true" duration-ms="50" started-at="2020-06-28T11:25:10Z" finished-at="2020-06-28T11:25:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- configBS -->
-        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBC" is-config="true" duration-ms="17062" started-at="2020-06-28T11:25:11Z" finished-at="2020-06-28T11:25:28Z">
+    <test name="Test" duration-ms="186358" started-at="2020-07-05T07:57:02Z" finished-at="2020-07-05T08:00:09Z">
+      <class name="com.Vtiger.TestScript.CreateLeadTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@5e3a8624]" name="configBC" is-config="true" duration-ms="7846" started-at="2020-07-05T13:29:16Z" finished-at="2020-07-05T13:29:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBC -->
-        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configBM" is-config="true" duration-ms="7682" started-at="2020-06-28T11:25:28Z" finished-at="2020-06-28T11:25:35Z">
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@5e3a8624]" name="configBM" is-config="true" duration-ms="8300" started-at="2020-07-05T13:29:24Z" finished-at="2020-07-05T13:29:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBM -->
-        <test-method status="PASS" signature="ProductCreation()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="ProductCreation" duration-ms="41315" started-at="2020-06-28T11:25:35Z" finished-at="2020-06-28T11:26:17Z">
+        <test-method status="PASS" signature="LeadCreation()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@5e3a8624]" name="LeadCreation" duration-ms="31619" started-at="2020-07-05T13:29:32Z" finished-at="2020-07-05T13:30:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Lead Created Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- LeadCreation -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@5e3a8624]" name="configAM" is-config="true" duration-ms="4051" started-at="2020-07-05T13:30:04Z" finished-at="2020-07-05T13:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateLeadTest@5e3a8624]" name="cofigAC" is-config="true" duration-ms="976" started-at="2020-07-05T13:30:08Z" finished-at="2020-07-05T13:30:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigAC -->
+      </class> <!-- com.Vtiger.TestScript.CreateLeadTest -->
+      <class name="com.Vtiger.TestScript.CreateProductTest">
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1bce4f0a]" name="configBC" is-config="true" duration-ms="9937" started-at="2020-07-05T13:28:18Z" finished-at="2020-07-05T13:28:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1bce4f0a]" name="configBM" is-config="true" duration-ms="7437" started-at="2020-07-05T13:28:28Z" finished-at="2020-07-05T13:28:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="ProductCreation()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1bce4f0a]" name="ProductCreation" duration-ms="34747" started-at="2020-07-05T13:28:36Z" finished-at="2020-07-05T13:29:10Z">
           <reporter-output>
             <line>
               <![CDATA[Product created successfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- ProductCreation -->
-        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configAM" is-config="true" duration-ms="3777" started-at="2020-06-28T11:26:17Z" finished-at="2020-06-28T11:26:20Z">
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1bce4f0a]" name="configAM" is-config="true" duration-ms="4378" started-at="2020-07-05T13:29:10Z" finished-at="2020-07-05T13:29:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAM -->
-        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="cofigAC" is-config="true" duration-ms="969" started-at="2020-06-28T11:26:20Z" finished-at="2020-06-28T11:26:21Z">
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1bce4f0a]" name="cofigAC" is-config="true" duration-ms="1061" started-at="2020-07-05T13:29:15Z" finished-at="2020-07-05T13:29:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cofigAC -->
-        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.CreateProductTest@1e88b3c]" name="configAS" is-config="true" duration-ms="0" started-at="2020-06-28T11:26:22Z" finished-at="2020-06-28T11:26:22Z">
+      </class> <!-- com.Vtiger.TestScript.CreateProductTest -->
+      <class name="com.Vtiger.TestScript.CreateOrganisationTest">
+        <test-method status="PASS" signature="configBS()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="configBS" is-config="true" duration-ms="51" started-at="2020-07-05T13:27:02Z" finished-at="2020-07-05T13:27:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method status="PASS" signature="configBC()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="configBC" is-config="true" duration-ms="12694" started-at="2020-07-05T13:27:02Z" finished-at="2020-07-05T13:27:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBC -->
+        <test-method status="PASS" signature="configBM()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="configBM" is-config="true" duration-ms="7844" started-at="2020-07-05T13:27:15Z" finished-at="2020-07-05T13:27:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBM -->
+        <test-method status="PASS" signature="OrganisationCreation()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="OrganisationCreation" duration-ms="50266" started-at="2020-07-05T13:27:23Z" finished-at="2020-07-05T13:28:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Organisation created successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- OrganisationCreation -->
+        <test-method status="PASS" signature="configAM()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="configAM" is-config="true" duration-ms="4105" started-at="2020-07-05T13:28:13Z" finished-at="2020-07-05T13:28:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAM -->
+        <test-method status="PASS" signature="cofigAC()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="cofigAC" is-config="true" duration-ms="1021" started-at="2020-07-05T13:28:17Z" finished-at="2020-07-05T13:28:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cofigAC -->
+        <test-method status="PASS" signature="configAS()[pri:0, instance:com.Vtiger.TestScript.CreateOrganisationTest@3bfdc050]" name="configAS" is-config="true" duration-ms="1" started-at="2020-07-05T13:30:09Z" finished-at="2020-07-05T13:30:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configAS -->
-      </class> <!-- com.Vtiger.TestScript.CreateProductTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.Vtiger.TestScript.CreateOrganisationTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
